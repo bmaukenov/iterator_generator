@@ -50,7 +50,7 @@ def hash_Lines(file_path):
             start += 1
 
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     for item in CountriesIterator("countries.json"):
         print(item)
     for hash_data in hash_Lines('countries.json'):
